@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    background-image: url(images/dark-new-york-city-background-sxhron2gyghqwqni.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.world{
+    width: 80%;
+    padding-top: 1%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+}
+.world-list{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-between;
+    margin-left: 40%;
+}
+.world-list a{
+    text-decoration: none;
+    color: white;
+}
+.section1 hr{
+    color: black;
+    width: 85%;
+    margin: auto;
+    margin-top: 1%;
+}
+.content{
+    width: 80%;
+    margin: 40% auto;
+    color: white;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    width: 30%;
+    justify-content: space-between;
+    display: flex;
+}
+.icon{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50rem;
+    border: 3px solid white;
+    text-align: center;
+}
+.icon p{
+    margin-top:  5px;
+}
+.text{
+    margin-left: 5%;
+    width: 80%;
+}
+.section2{
+    width:80%;
+    padding-top: 5%;
+    margin: 0 auto;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+}
+.section2-left{
+    width: 60%;
+}
+.DontMiss{
+    display: flex;
+    width: 100%;
+}
+.DontMissWhatsTrending-list{
+    display: flex;
+    list-style: none;
+    width: 70%;
+    justify-content: space-between;
+    margin-left: 7%;
+}
+.DontMissWhatsTrending-list a{
+    text-decoration: none;
+    color:gray;
+}
+.section2 hr{
+    color:#ccc;
+    width: 100%;
+    margin-top: 1%;
+    margin-left: 0;
+}
+.container{
+    display: flex;
+    margin-top: 2%;
+    width: 100%;
+    /* background-color: black; */
+    justify-content: space-between;
+
+}
+.DontMissLeft{
+    width: 48%;
+    height: 66.4vh;
+    border: 1px solid #ccc;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+.DontMissLeft p,h2{
+    margin:5%;
+}
+.DontMissLeft p{
+    color: gray;
+}
+.DontMissLeft img{
+    width:100%;
+}
+.DontMissRight{
+    width: 48%;
+    height: 65vh;
+    /* background-color: black; */
+}
+.DontMissRight img {
+    width: 33%;
+    height: 100%;
+
+}
+.RightItem{
+    height: 25%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    border: 2px solid #ccc;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.RightItem p{
+    color:gray;
+    margin-top: 3%;
+}
+.ItemContent{
+    margin: 3%;
+}
+.chevron-icons{
+    color: gray;
+    font-size: 25px;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+.WhatsTrending{
+    display: flex;
+    margin-top: 3%;
+    width: 100%;
+
+}
+.WhatsTrending-Up{
+    width: 48%;
+    height: 66.4vh;
+    border: 1px solid #ccc;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.WhatsTrending-Up img{
+    width: 100%;
+}
+.WhatsTrending-Up p{
+    color: gray;
+}
+.WhatsTrending-Up p,h2{
+    margin: 5%;
+}
+.container-down{
+    display: flex;
+    width: 100%;
+    height: 32.5vh;
+    /* background-color: black; */
+    justify-content: space-between;
+}
+.WhatsTrending-Down-Left{
+    width: 48%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.WhatsTrending-Down-Right{
+    width: 48%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+.Down-Left{
+    display: flex;
+    border: 1px solid #ccc;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+    /* margin-top: 2%; */
+}
+.Down-Left img{
+    width: 33%;
+    height: 16.25vh;
+}
+.Down-Left p{
+    color: gray;
+}
+
+.Down-Right{
+    display: flex;
+    border: 1px solid #ccc;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.Down-Right img{
+    width: 33%;
+    height: 16.25vh;
+}
+.Down-Right p{
+    color: gray;
+}
+.section2-right{
+    width: 38%;
+    /* height: 100vh; */
+    /* background-color: black; */
+    border-left: #ccc 1px solid;
+}
+.AboutWorld-Section{
+    width: 90%;
+    /* height: 100%; */
+    margin: auto;
+    /* background-color: black; */
+
+}
+.AboutWorld-Section p{
+    color: gray;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.TopStories-content{
+    width: 100%;
+    height: 75vh;
+    /* background-color: aqua; */
+    margin-top: 5%;
+    margin-bottom: 8%;
+
+}
+TopStories-content img{
+    height: 5vh;
+    width: 5%;
+}
+.TopStories-ContentItem{
+    width: 100%;
+    height: 20%;
+    /* background-color: black; */
+    border: 1px solid #ccc;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+.TopStories-ContentItem img{
+    width: 30%;
+    height: 100%;
+}
+.TopStories-ContentItem h3{
+    width: 65%;
+    margin: auto;
+}
+.StayConnected-Icons{
+    display: flex;
+    height: 8vh;
+    color: gray;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-size:large;
+    text-align: center;
+    margin-top: 5%;
+}
+.circle-background{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50rem;
+    border: 3px solid #ccc;
+}
+.StayConnected-Icons i{
+    margin-top: 5px;
+}
+.video{
+    width: 90%;
+    height: 30vh;
+    margin: 10% auto;
+    /* background-color: black; */
+    position: relative;
+
+}
+.video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.video-content{
+    width: 90%;
+    height: 20vh;
+    margin: auto;
+}
